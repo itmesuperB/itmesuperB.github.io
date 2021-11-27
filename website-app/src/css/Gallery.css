@@ -1,0 +1,41 @@
+#gallery-container{
+    display: flex;
+}
+
+.thumbnail-container{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 1px solid pink;
+}
+
+.thumbnail-info-container{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    background-color: rgba(221, 98, 194, 0.8);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.thumbnail-info-text{
+    color: #fff;
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.thumbnail-image-container{
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.thumbnail-image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
