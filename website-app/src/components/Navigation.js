@@ -13,7 +13,7 @@ function Navigation() {
             <div id="navigation-portfolio-title" className="navigation-link"><a href="/portfolio">PORTFOLIO</a></div>
             <div id="nav-portfolio-all" className="subnavigation-link"><a href="/portfolio">All</a></div>
             <div id='nav-portfolio-props' className="subnavigation-link"><a href="/portfolio-props">Props</a></div>
-            {/* <div id='nav-portfolio-environments' className="subnavigation-link"><a href="/portfolio">Environments</a></div> */}
+            
         </div>
 
         <div id="navigation-about" className="navigation-link"><a href="/about">ABOUT ME</a></div>
